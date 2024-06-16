@@ -34,7 +34,9 @@ const HeaderComponent = () => {
                     </div>
                     <div className='flex items-center'>
                         <Image style={{ width: 20, height: 20 }} alt='' src={icPhone} />
-                        <span className="text-white ml-2 font-semibold text-[16.5px]">(+84) 28 3844 1111</span>
+                        <a href="tel:+842838441111">
+                            <span className="text-white ml-2 font-semibold text-[16.5px]">(+84) 28 3844 1111</span>
+                        </a>
                     </div>
                     <div className='flex items-center flex-wrap'>
                         <div onClick={() => handleLangItemClick('vi')} className='cursor-pointer font-semibold flex items-center mr-3'> <Image style={{ width: 20, height: 20 }} alt='' src={flagVN} /> <span className="text-white ml-2  text-[15px]"> <Translations text='Tiếng Việt' /></span> </div>
@@ -49,10 +51,13 @@ const HeaderComponent = () => {
                     </div>
                     <div className='flex items-center'>
                         <Image className='w-[15px] h-[15px]' alt='' src={icPhone} />
-                        <span className="text-white ml-2 font-semibold text-[13px]">(+84) 28 3844 1111</span>
+                        <a href="tel:+842838441111">
+                            <span className="text-white ml-2 font-semibold text-[13px]">(+84) 28 3844 1111</span>
+                        </a>
+
                     </div>
                     <div className='items-center md:hidden flex'>
-                        <Image className='w-[15px] h-[15px]'  alt='' src={location} />
+                        <Image className='w-[15px] h-[15px]' alt='' src={location} />
                         <span className="text-white ml-2 font-semibold text-[13px]  ">
                             <Translations text='66/52 Phổ Quang, P.2, Q. Tân Bình, TP. Hồ Chí Minh' />
                         </span>

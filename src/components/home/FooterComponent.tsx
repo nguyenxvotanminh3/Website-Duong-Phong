@@ -42,8 +42,9 @@ const FooterComponent = () => {
                       color="black"
                       className="w-[12px] custom-icon-hidden"
                     />
-
-                    <span className="text=[15px]"> 028. 38 44. 1111</span>
+                    <a href="tel:+842838441111">
+                      <span className="text=[15px]"> (+84) 28 3844 1111</span>
+                    </a>
                   </div>
                   <div className="flex items-center custom-text-mode gap-2">
                     <IconFax className="w-[15px] custom-icon-hidden" />
