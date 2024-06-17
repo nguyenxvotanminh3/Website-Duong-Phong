@@ -125,6 +125,20 @@ const ContactUs = () => {
                           </span>
                         </div>
                       </div>
+                      <div className="flex justify-between">
+                        <div className="flex custom-text-mode gap-2">
+                          <IconPhone
+                            color="black"
+                            className="w-[12px] custom-icon-hidden"
+                          />
+                          <a href="tel:+84906331246">
+                            <span className="text-[15px]">Hotline: (+84) 906 331 246 | </span>
+                          </a>
+                          <a href="tel:+84909982246">
+                            <span className="text-[15px]">(+84) 909 982 246</span>
+                          </a>
+                        </div>
+                      </div>
                       <div className="flex custom-text-mode gap-2">
                         <IconEmail
                           color="white"
@@ -135,7 +149,7 @@ const ContactUs = () => {
                           className="w-[12px] custom-icon-hidden"
                         />
 
-                        <span className="text=[15px]">contact@dpa.vn</span>
+                        <span className="text-[15px]">contact@dpa.vn</span>
                       </div>
                     </div>
                   </div>
