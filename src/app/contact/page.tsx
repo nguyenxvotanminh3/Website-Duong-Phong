@@ -120,19 +120,15 @@ const ContactUs = () => {
                           <IconFax
                             className="w-[15px] custom-icon-hidden"
                           />
-                          <span className="custom-text-mode text-[15px]">
-                            028.39971009
-                          </span>
+                          <a href="tel:+842839971009">
+                            <span className="custom-text-mode text-[15px]">(+84) 283 997 1009</span>
+                          </a>
                         </div>
                       </div>
                       <div className="flex justify-between">
                         <div className="flex custom-text-mode gap-2">
-                          <IconPhone
-                            color="black"
-                            className="w-[12px] custom-icon-hidden"
-                          />
                           <a href="tel:+84906331246">
-                            <span className="text-[15px]">Hotline: (+84) 906 331 246 | </span>
+                            <span className="text-[15px]">Hotline: (+84) 906 331 246 <span className="mx-10">|</span> </span>
                           </a>
                           <a href="tel:+84909982246">
                             <span className="text-[15px]">(+84) 909 982 246</span>
@@ -153,8 +149,8 @@ const ContactUs = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="flex rounded-full items-center gap-4 bg-[#FF9D00] p-2 lg:px-[10px]">
-                    <div className="bg-logo-custom-mode rounded-full w-[35px] h-[35px] lg:w-[60px] lg:h-[60px] p-3">
+                  <div className="flex rounded-full items-center gap-4 bg-[#FF9D00] p-2 px-[20px]">
+                    <div className="bg-logo-custom-mode rounded-full w-[45px] h-[45px] lg:w-[60px] lg:h-[60px] p-3">
                       <Image alt="" className="w-full h-full" src={logoBlack} />
                     </div>
                     <div>
@@ -164,11 +160,18 @@ const ContactUs = () => {
                           <Translations text="Gọi cho chúng tôi" />
                         </p>
                       </div>
-                      <a href="tel:+842838441111">
+                      {/* <a href="tel:+842838441111">
                         <span className=" text-base lg:text-3xl font-bold pr-2">
                           {" "}
                           (+84) 28 3844 1111
                         </span>
+                      </a> */}
+                      <span>Hotline:</span><br/>
+                      <a href="tel:+84906331246">
+                        <span className="text-[15px] font-bold"> (+84) 906 331 246  <span className="mx-2">|</span> </span>
+                      </a> 
+                      <a href="tel:+84909982246">
+                        <span className="text-[15px] font-bold">(+84) 909 982 246</span>
                       </a>
 
                     </div>

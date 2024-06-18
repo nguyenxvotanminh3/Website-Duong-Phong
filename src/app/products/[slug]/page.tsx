@@ -42,6 +42,16 @@ import cc13 from "@assets/images/cc13.png";
 import cc15 from "@assets/images/cc15.png";
 import cc16 from "@assets/images/cc16.png";
 
+import qc1 from "@assets/images/qc1.png";
+import qc2 from "@assets/images/qc2.png";
+import qc3 from "@assets/images/qc3.png";
+import qc4 from "@assets/images/qc4.png";
+import qc5 from "@assets/images/qc5.png";
+import qc6 from "@assets/images/qc6.png";
+import qc7 from "@assets/images/qc7.png";
+import qc8 from "@assets/images/qc8.png";
+import qc9 from "@assets/images/qc9.png";
+
 import { useParams } from "next/navigation";
 import FooterComponent from "@srccomponents/home/FooterComponent";
 import BannerSingle from "@srccommons/BannerSingle";
@@ -236,6 +246,7 @@ const ProductDetail = () => {
           </div>
         </Container>
       </div>
+
       <div id="bao-bi-hop-giay"></div>
       <div className="mt-[6rem]">
         <div className="bg-banner py-8">
@@ -390,6 +401,159 @@ const ProductDetail = () => {
                   alt=""
                   className="w-full h-full object-cover"
                   src={bb10}
+                />
+              </div>
+            </div>
+          </div>
+        </Container>
+      </div>
+
+      <div id="quang-cao-ngoai-troi"></div>
+      <div className="mt-[6rem]">
+        <div className="bg-banner py-8">
+          <Container>
+            <h3 className="text-shadown text-center uppercase text-white  text-[30px] md:text-[35px]">
+              <Translations text="Quảng cáo ngoài trời" />{" "}
+            </h3>
+          </Container>
+        </div>
+
+        <Container>
+          <div className="grid grid-cols-10 sm:grid-cols-12 lg:grid-cols-10 items-stretch gap-1 mt-5 ">
+            <div className="col-span-10 sm:col-span-8 md:col-span-6 lg:col-span-4">
+              <div className={`${styles.image_hover} aspect-[2/1]`}>
+                <Image
+                  alt=""
+                  className="w-full h-full object-cover"
+                  src={qc1}
+                />
+              </div>
+            </div>
+            <div className="col-span-5 sm:col-span-4 md:col-span-3 lg:col-span-2">
+              <div className={`${styles.image_hover} aspect-square`}>
+                <Image
+                  className="w-full h-full object-cover"
+                  alt=""
+                  src={qc2}
+                />
+              </div>
+            </div>
+            <div className="col-span-5 sm:col-span-4 md:col-span-3 lg:col-span-2">
+              <div
+                className={`${styles.bg_custom_yellow} h-full relative overflow-hidden`}
+              >
+                <p className="text-white uppercase text-right   p-3 text-base xl:text-[21.42px] leading-7">
+                  <Translations text="BẢNG QUẢNG CÁO" /> <br />{" "}
+                  <Translations text="TẤM LỚN" />
+                </p>
+                <div
+                  className="absolute -bottom-10 -right-10 h-[80%] w-[80%] z-10 rounded-full"
+                  style={{ background: "#FAB674" }}
+                ></div>
+              </div>
+            </div>
+            <div className="col-span-5 sm:col-span-4 md:col-span-3 lg:col-span-2">
+              <div className={`${styles.image_hover} aspect-square`}>
+                <Image
+                  className="w-full h-full object-cover"
+                  alt=""
+                  src={qc3}
+                />
+              </div>
+            </div>
+            <div className="col-span-5 sm:col-span-4 md:col-span-3 lg:col-span-2 order-7 lg:order-none">
+              <div className={`${styles.image_hover} aspect-square`}>
+                <Image
+                  className="w-full h-full object-cover"
+                  alt=""
+                  src={qc4}
+                />
+              </div>
+            </div>
+            <div className="col-span-5 sm:col-span-4 md:col-span-3 lg:col-span-2">
+              <div className={`${styles.image_hover} aspect-square`}>
+                <Image
+                  className="w-full h-full object-cover"
+                  alt=""
+                  src={qc5}
+                />
+              </div>
+            </div>
+
+            <div className="col-span-5  sm:col-span-4 md:col-span-3 lg:col-span-2 order-5 lg:order-none">
+              <div
+                className={`${styles.bg_custom_yellow} h-full flex relative z-0 overflow-hidden`}
+              >
+                <p className="text-white uppercase items-end mt-auto w-full xl:w-[14rem] ml-auto p-3   text-base xl:text-[21.42px]">
+                  <Translations text="HỘP ĐÈN" />
+                </p>
+                <div
+                  className="absolute bottom-10 right-10 h-[80%] w-[80%] -z-10 rounded-full border-[0.5px]"
+                  style={{ borderColor: "#FAB674" }}
+                ></div>
+              </div>
+            </div>
+            <div className="col-span-10 sm:col-span-8 md:col-span-6 lg:col-span-4">
+              <div className={`${styles.image_hover} aspect-[2/1]`}>
+                <Image
+                  className="w-full h-full object-cover"
+                  alt=""
+                  src={qc6}
+                />
+              </div>
+            </div>
+            <div className="col-span-5 sm:col-span-4 md:col-span-3 lg:col-span-2">
+              <div className={`${styles.image_hover} aspect-square`}>
+                <Image
+                  className="w-full h-full object-cover"
+                  alt=""
+                  src={qc7}
+                />
+              </div>
+            </div>
+            <div className="col-span-5 sm:col-span-4 md:col-span-3 lg:col-span-2">
+              <div
+                className={`${styles.bg_custom_yellow} h-full flex relative z-0 overflow-hidden`}
+              >
+                <p className="text-white uppercase  p-3 items-center justify-center my-auto mx-auto text-base xl:text-[21.42px] leading-7">
+                  <Translations text="BIỂN HIỆU" />
+                </p>
+                <div
+                  className="absolute bottom-10 left-10 h-[80%] w-[80%] -z-10 rounded-full border-[0.5px]"
+                  style={{ borderColor: "#FAB674" }}
+                ></div>
+              </div>
+            </div>
+            <div className="col-span-5 sm:col-span-4 md:col-span-3 lg:col-span-2">
+              <div className={`${styles.image_hover} aspect-square`}>
+                <Image
+                  className="w-full h-full object-cover"
+                  alt=""
+                  src={qc8}
+                />
+              </div>
+            </div>
+
+
+            <div className="col-span-5 sm:col-span-4 md:col-span-3 lg:col-span-2">
+              <div
+                className={`${styles.bg_custom_yellow} h-full relative overflow-hidden`}
+              >
+                <p className="text-white uppercase  p-3 text-base xl:text-[21.42px]">
+                  SHOP SIGN
+                </p>
+                <div
+                  className="absolute -bottom-10 -right-10 h-[80%] w-[80%] z-10 rounded-full"
+                  style={{ background: "#FAB674" }}
+                ></div>
+              </div>
+            </div>
+            <div className="col-span-5 sm:col-span-4 md:col-span-3 lg:col-span-2">
+              <div className={`${styles.image_hover} aspect-square`}>
+                <Image
+                  className="w-full h-full object-cover"
+                  alt=""
+                  src={qc9}
                 />
               </div>
             </div>

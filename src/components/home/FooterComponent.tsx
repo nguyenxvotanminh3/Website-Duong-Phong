@@ -45,19 +45,19 @@ const FooterComponent = () => {
 
                   <div className="flex items-center custom-text-mode gap-2">
                     <IconFax className="w-[15px] custom-icon-hidden" />
-                    <span className="custom-text-mode text-[15px]">
-                      028.39971009
-                    </span>
+                    <a href="tel:+842839971009">
+                      <span className="custom-text-mode text-[15px]">
+                        (+84) 283 9971 009
+                      </span>
+                    </a>
+
                   </div>
                 </div>
                 <div className="flex justify-between">
                   <div className="flex custom-text-mode gap-2">
-                    <IconPhone
-                      color="black"
-                      className="w-[12px] custom-icon-hidden"
-                    />
+
                     <a href="tel:+84906331246">
-                      <span className="text-[15px]">Hotline: (+84) 906 331 246 | </span>
+                      <span className="text-[15px] ">Hotline: (+84) 906 331 246 <span className="sm:mx-10">|</span> </span>
                     </a>
                     <a href="tel:+84909982246">
                       <span className="text-[15px]">(+84) 909 982 246</span>

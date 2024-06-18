@@ -49,6 +49,12 @@ const Navbar = () => {
                       <Translations text="Bao bì - hộp giấy" />
                     </Link>
                     <Link
+                      href="/products/quang-cao-ngoai-troi"
+                      className="flex font-avo_bold items-center px-8 text-nowrap  gap-x-2.5 p-3 font-semibold text-[#6D6E71] hover:bg-gray-100"
+                    >
+                      <Translations text="Quảng cáo ngoài trời" />
+                    </Link>
+                    <Link
                       href="/products/thiet-bi-quang-cao"
                       className="flex font-avo_bold items-center px-8 text-nowrap  gap-x-2.5 p-3 font-semibold text-[#6D6E71] hover:bg-gray-100"
                     >
@@ -96,9 +102,8 @@ const Navbar = () => {
             <div>
               <Link
                 href={"/about-us"}
-                className={`${styles.menu_single} ${
-                  path.includes("about-us") ? styles.active : ""
-                } font-avo_bold text-[18px] py-3`}
+                className={`${styles.menu_single} ${path.includes("about-us") ? styles.active : ""
+                  } font-avo_bold text-[18px] py-3`}
               >
                 <Translations text="Về chúng tôi" />
               </Link>
@@ -106,9 +111,8 @@ const Navbar = () => {
             <div>
               <Link
                 href={"/news"}
-                className={`${styles.menu_single} ${
-                  path.includes("news") ? styles.active : ""
-                } font-avo_bold text-[18px] py-3`}
+                className={`${styles.menu_single} ${path.includes("news") ? styles.active : ""
+                  } font-avo_bold text-[18px] py-3`}
               >
                 <Translations text="Tin tức" />
               </Link>
@@ -116,9 +120,8 @@ const Navbar = () => {
             <div>
               <Link
                 href={"/contact"}
-                className={`${styles.menu_single} ${
-                  path.includes("contact") ? styles.active : ""
-                } font-avo_bold text-[18px] py-3`}
+                className={`${styles.menu_single} ${path.includes("contact") ? styles.active : ""
+                  } font-avo_bold text-[18px] py-3`}
               >
                 <Translations text="Liên hệ" />
               </Link>

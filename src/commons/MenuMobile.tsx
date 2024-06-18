@@ -28,6 +28,10 @@ const menu = [
                 path: '/products/bao-bi-hop-giay'
             },
             {
+                title: 'Quảng cáo ngoài trời',
+                path: '/products/quang-cao-ngoai-troi'
+            },
+            {
                 title: 'Thiết bị quảng cáo',
                 path: '/products/thiet-bi-quang-cao'
             },
