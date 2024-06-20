@@ -660,6 +660,15 @@ const ProductDetail = () => {
                 ></div>
               </div>
             </div>
+            <div className="sm:hidden col-span-6 sm:col-span-4 lg:col-span-2">
+              <div className={`${styles.image_hover} aspect-square`}>
+                <Image
+                  alt=""
+                  className="w-full h-full object-cover"
+                  src={cc9}
+                />
+              </div>
+            </div>
             <div className="col-span-12 sm:col-span-8 lg:col-span-4">
               <div className={`${styles.image_hover} aspect-[2/1]`}>
                 <Image
@@ -669,7 +678,7 @@ const ProductDetail = () => {
                 />
               </div>
             </div>
-            <div className="col-span-6 sm:col-span-4 lg:col-span-2">
+            <div className="hidden sm:block col-span-6 sm:col-span-4 lg:col-span-2">
               <div className={`${styles.image_hover} aspect-square`}>
                 <Image
                   alt=""
