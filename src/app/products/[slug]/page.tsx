@@ -413,7 +413,7 @@ const ProductDetail = () => {
         <div className="bg-banner py-8">
           <Container>
             <h3 className="text-shadown text-center uppercase text-white  text-[30px] md:text-[35px]">
-              <Translations text="Quảng cáo ngoài trời" />{" "}
+              <Translations text="Quảng cáo ngoài trời" />
             </h3>
           </Container>
         </div>

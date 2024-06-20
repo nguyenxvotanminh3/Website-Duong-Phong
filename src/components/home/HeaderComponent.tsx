@@ -44,7 +44,10 @@ const HeaderComponent = () => {
                     </div>
                     <div className='flex items-center'>
 
-                        <span className='text-white ml-2'>Hotline</span>
+                        <IconPhone
+                            color="white"
+                            className="w-[15px] custom-icon-hidden"
+                        />
                         <a href="tel:+84906331246">
                             <span className="text-white ml-2 font-semibold text-[16.5px]">(+84) 906 982 246 | </span>
                         </a>
@@ -67,7 +70,10 @@ const HeaderComponent = () => {
                         <div onClick={() => handleLangItemClick('en')} className='cursor-pointer font-semibold flex items-center'> <Image className='w-[15px] h-[15px]' alt='' src={flagUK} /> <span className="text-white ml-2  text-[13px]"><Translations text='Tiếng Anh' /></span> </div>
                     </div>
                     <div className='flex items-center'>
-                        <Image className='w-[15px] h-[15px]' alt='' src={icPhone} />
+                        <IconPhone
+                            color="white"
+                            className="w-[15px] custom-icon-hidden"
+                        />
                         <a href="tel:+842838441111">
                             <span className="text-white ml-2 font-semibold text-[13px]">(+84) 28 3844 1111</span>
                         </a>
@@ -77,7 +83,6 @@ const HeaderComponent = () => {
                             color="white"
                             className="w-[10px] custom-icon-hidden"
                         />
-                        <span className='text-white ml-2 text-[14px]'>Hotline</span>
                         <a href="tel:+842838441111">
                             <span className="text-white ml-2 font-semibold text-[13px]">(+84) 906 982 246 </span>
                         </a>

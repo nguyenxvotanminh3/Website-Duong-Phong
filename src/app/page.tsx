@@ -49,7 +49,7 @@ export default function Home() {
 
       {/* BANNER */}
       <BannerComponentV2 />
-
+ 
       <div className={`${styles.bg_intro} pb-[5rem] pt-10 -mt-2`}>
         <div className="w-full px-4 xl:px-0 xl:w-5/6 mx-auto 3xl:mx-auto max-w-screen-2xl lg:ms-auto xl:mr-0">
           <div className="hidden xl:flex items-center flex-wrap gap-6">
