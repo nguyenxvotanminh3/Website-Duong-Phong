@@ -32,6 +32,8 @@ import banner7 from "@assets/images/bannerx7.jpg";
 import banner8 from "@assets/images/bannerx8.jpg";
 import banner9 from "@assets/images/bannerx9.jpg";
 import banner10 from "@assets/images/bannerx10.jpg";
+import banner11 from "@assets/images/banner11.jpg";
+import banner12 from "@assets/images/banner12.jpg";
 
 import Container from "@srccommons/Container";
 import "../../i18n";
@@ -56,9 +58,8 @@ export default function Home() {
                 alt=""
                 className="w-full"
                 src={lang === "en" ? icon30en : icon30}
-                
               />
-            </div> 
+            </div>
           </div>
           <div className="xl:hidden flex justify-center flex-wrap gap-6">
             <div className="flex flex-col items-center justify-center">
@@ -68,7 +69,7 @@ export default function Home() {
                   className="w-full"
                   src={lang === "en" ? icon302en : icon302}
                 />
-              </div> 
+              </div>
             </div>
           </div>
           <div className="grid grid-cols-6 gap-10 mt-5 items-start">
@@ -110,7 +111,7 @@ export default function Home() {
               </p>
               <p className="text-[18px] mb-3">
                 <span className="font-avo_bold font-medium">
-                  <Translations text="2024-2028" />: {' '}
+                  <Translations text="2024-2028" />:{" "}
                 </span>
                 <span className="text-white ">
                   <Translations text="30year-line6" />
@@ -164,6 +165,12 @@ export default function Home() {
                 <div className={`${styles.image_hover} rounded`}>
                   <Image alt="" src={banner10} className="w-full  " />
                 </div>
+                <div className={`${styles.image_hover} rounded`}>
+                  <Image alt="" src={banner11} className="w-full  " />
+                </div>
+                <div className={`${styles.image_hover} rounded`}>
+                  <Image alt="" src={banner12} className="w-full  " />
+                </div>
               </Slider>
               {/* <Image alt="" src={bannerIntro} style={{ width: "100%" }} /> */}
             </div>
@@ -192,7 +199,7 @@ export default function Home() {
               className="slide-certificate"
               infinite={true}
               slidesToShow={5}
-              slidesToScroll={1} 
+              slidesToScroll={1}
               autoplay={true}
               autoplaySpeed={2000}
               speed={1500}
@@ -242,18 +249,41 @@ export default function Home() {
                 },
               ]}
             >
-              <Image alt="" src={certificate1} className="aspect-[439/584]  sm:h-[300px] " />
+              <Image
+                alt=""
+                src={certificate1}
+                className="aspect-[439/584]  sm:h-[300px] "
+              />
 
-              <Image alt="" src={certificate2} className="aspect-[439/592]  sm:h-[300px]  " />
+              <Image
+                alt=""
+                src={certificate2}
+                className="aspect-[439/592]  sm:h-[300px]  "
+              />
 
-              <Image alt="" src={certificate3} className="aspect-[439/584]  sm:h-[300px]  " />
+              <Image
+                alt=""
+                src={certificate3}
+                className="aspect-[439/584]  sm:h-[300px]  "
+              />
 
-              <Image alt="" src={certificate4} className="aspect-[428/586]  sm:h-[300px]  " />
+              <Image
+                alt=""
+                src={certificate4}
+                className="aspect-[428/586]  sm:h-[300px]  "
+              />
 
-              <Image alt="" src={certificate5} className="aspect-[428/570]  sm:h-[300px]  " />
-              <Image alt="" src={certificate6} className="  sm:h-[300px] " /> 
-              <Image alt="" src={certificate7} className=" aspect-[213/570]  sm:h-[300px]   " />
-             
+              <Image
+                alt=""
+                src={certificate5}
+                className="aspect-[428/570]  sm:h-[300px]  "
+              />
+              <Image alt="" src={certificate6} className="  sm:h-[300px] " />
+              <Image
+                alt=""
+                src={certificate7}
+                className=" aspect-[213/570]  sm:h-[300px]   "
+              />
             </Slider>
           </Container>
         </div>
