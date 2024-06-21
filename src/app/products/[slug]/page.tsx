@@ -56,9 +56,12 @@ import { useParams } from "next/navigation";
 import FooterComponent from "@srccomponents/home/FooterComponent";
 import BannerSingle from "@srccommons/BannerSingle";
 import Translations from "@srccommons/Translations";
+import { useTranslation } from "react-i18next";
 
 const ProductDetail = () => {
   const params = useParams<{ slug: string }>();
+  const { i18n } = useTranslation();
+  const lang = i18n.language;
 
   useEffect(() => {
     if (!params?.slug) {
@@ -440,14 +443,14 @@ const ProductDetail = () => {
             </div>
             <div className="col-span-5 sm:col-span-4 md:col-span-3 lg:col-span-2">
               <div
-                className={`${styles.bg_custom_yellow} h-full relative overflow-hidden`}
+                className={`${styles.bg_custom_yellow} h-full relative z-0 overflow-hidden`}
               >
-                <p className="text-white uppercase text-right ml-auto  p-3 text-base xl:text-[21.42px] leading-7">
-                  <Translations text="BẢNG QUẢNG CÁO" /> <br />{" "}
+                <p className="text-white uppercase text-right ml-auto  p-2 text-base xl:text-[21.42px] leading-7">
+                  <Translations text="BẢNG QUẢNG CÁO" /> <br className={`${lang === 'en' ? 'hidden': ''}`} />{" "}
                   <Translations text="TẤM LỚN" />
                 </p>
                 <div
-                  className="absolute -bottom-10 -right-10 h-[80%] w-[80%] z-10 rounded-full"
+                  className="absolute -bottom-10 -right-10 h-[80%] w-[80%] -z-10 rounded-full"
                   style={{ background: "#FAB674" }}
                 ></div>
               </div>

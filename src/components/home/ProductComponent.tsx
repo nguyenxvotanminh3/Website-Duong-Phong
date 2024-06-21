@@ -10,6 +10,8 @@ import icRight from "@assets/images/arrow_right.svg";
 import sp from "@assets/images/sp1.1.jpg";
 import sp2 from "@assets/images/sp2.jpg";
 import sp3 from "@assets/images/sp.jpg";
+import sp4 from "@assets/images/banner11.jpg";
+
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Translations from "@srccommons/Translations";
@@ -98,7 +100,7 @@ const ProductComponent = () => {
             <Translations text="Ấn Phẩm" />
           </h3>
           <div className={`${styles.image_hover} rounded`}>
-            <Image alt="" src={sp} className="h-full object-cover" />
+            <Image alt="" src={sp} className=" object-cover h-[335px] md:h-[400px] lg:h-[352px]" />
             <div
               className={`${styles.view_detail} flex justify-center items-center`}
             >
@@ -125,7 +127,7 @@ const ProductComponent = () => {
             <Image
               alt=""
               src={sp2}
-              className="object-cover w-full md:h-[400px] lg:h-[450px] xl:h-[560px]"
+              className="object-cover w-full h-[335px] md:h-[400px] lg:h-[450px] xl:h-[560px]"
             />
             <div
               className={`${styles.view_detail} flex justify-center items-center`}
@@ -136,14 +138,14 @@ const ProductComponent = () => {
             </div>
           </div>
         </div>
-        <div className="pt-3">
+        <div className="md:pt-3">
           <h3
             className={`${styles.text_custom_yellow} font-semibold text-[21.42px] text-center md:hidden uppercase px-5 `}
           >
-            <Translations text="Thiết bị quảng cáo" />
+            <Translations text="Quảng cáo ngoài trời" />
           </h3>
           <div className={`${styles.image_hover} rounded`}>
-            <Image className="object-cover" alt="" src={sp3} />
+            <Image className="object-cover h-[335px] md:h-[400px] lg:h-[352px]" alt="" src={sp4} />
             <div
               className={`${styles.view_detail} flex justify-center items-center`}
             >
@@ -155,8 +157,30 @@ const ProductComponent = () => {
           <h3
             className={`${styles.text_custom_yellow} font-semibold text-[21.42px] hidden md:block text-center uppercase px-5  mt-5`}
           >
-            <Translations text="Thiết bị quảng cáo" />
+            <Translations text="Quảng cáo ngoài trời" />
           </h3>
+        </div>
+        <div>
+          <h3
+            className={`${styles.text_custom_yellow} font-semibold text-center text-[21.42px] uppercase px-5 md:mb-5`}
+          >
+            <Translations text="Thiết bị quảng cáo" />{" "}
+          </h3>
+
+          <div className={`${styles.image_hover} rounded md:mb-7`}>
+            <Image
+              alt=""
+              src={sp3}
+              className="object-cover w-full h-[335px] md:h-[400px] lg:h-[450px] xl:h-[560px]"
+            />
+            <div
+              className={`${styles.view_detail} flex justify-center items-center`}
+            >
+              <Link href={"#"}>
+                <Translations text="Xem chi tiết" />
+              </Link>
+            </div>
+          </div>
         </div>
       </Slider>
       <div
