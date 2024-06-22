@@ -53,17 +53,18 @@ const FooterComponent = () => {
 
                   </div>
                 </div>
-                <div className="flex justify-between">
-                  <div className="flex custom-text-mode gap-2">
+               
+                  <div className="flex custom-text-mode justify-between items-center gap-2">
 
                     <a href="tel:+84906331246">
-                      <span className="text-[15px] ">Hotline: (+84) 906 331 246 <span className="sm:mx-10">|</span> </span>
+                      <span className="text-[15px] ">Hotline: (+84) 906 331 246  </span>
                     </a>
+                    <span >|</span>
                     <a href="tel:+84909982246">
                       <span className="text-[15px]">(+84) 909 982 246</span>
                     </a>
                   </div>
-                </div>
+                
                 <div className="flex custom-text-mode gap-2">
                   <IconEmail
                     color="white"

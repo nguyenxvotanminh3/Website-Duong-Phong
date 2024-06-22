@@ -604,7 +604,22 @@ const ProductDetail = () => {
                 />
               </div>
             </div>
-            <div className="col-span-6 sm:col-span-4 lg:col-span-2 ">
+
+            <div className="sm:hidden col-span-6 sm:col-span-4 lg:col-span-2 ">
+              <div
+                className={`${styles.bg_custom_yellow} h-full relative z-0 overflow-hidden`}
+              >
+                <p className="text-white w-full xl:w-[14rem] ml-auto p-3 text-right text-base xl:text-[21.42px]">
+                  STANDEE <br /> HANGER <br /> TENCARD <br /> WOBBLER
+                </p>
+                <div
+                  className="absolute bottom-10 right-10 h-[80%] w-[80%] -z-10 rounded-full border-[0.5px]"
+                  style={{ borderColor: "#FAB674" }}
+                ></div>
+              </div>
+            </div>
+
+            <div className="hidden sm:block col-span-6 sm:col-span-4 lg:col-span-2  ">
               <div className={`${styles.image_hover} aspect-square`}>
                 <Image
                   alt=""
@@ -649,8 +664,16 @@ const ProductDetail = () => {
                 />
               </div>
             </div>
-
-            <div className=" col-span-6 sm:col-span-4 lg:col-span-2 ">
+            <div className=" sm:hidden col-span-6 sm:col-span-4 lg:col-span-2  ">
+              <div className={`${styles.image_hover} aspect-square`}>
+                <Image
+                  alt=""
+                  className="w-full h-full object-cover"
+                  src={cc4}
+                />
+              </div>
+            </div>
+            <div className="hidden sm:block col-span-6 sm:col-span-4 lg:col-span-2 ">
               <div
                 className={`${styles.bg_custom_yellow} h-full relative z-0 overflow-hidden`}
               >
@@ -663,13 +686,18 @@ const ProductDetail = () => {
                 ></div>
               </div>
             </div>
-            <div className="sm:hidden col-span-6 sm:col-span-4 lg:col-span-2">
-              <div className={`${styles.image_hover} aspect-square`}>
-                <Image
-                  alt=""
-                  className="w-full h-full object-cover"
-                  src={cc9}
-                />
+           
+            <div className="sm:hidden col-span-6 sm:col-span-4 lg:col-span-2 ">
+              <div
+                className={`${styles.bg_custom_yellow} h-full relative z-0 overflow-hidden`}
+              >
+                <p className="text-white w-full xl:w-[14rem] ml-auto p-3 text-right text-base xl:text-[21.42px]">
+                  GONDOLAR HEAD <br /> DISPLAY STANDS <br /> BOOTH{" "}
+                </p>
+                <div
+                  className="absolute bottom-10 right-10 h-[80%] w-[80%] -z-10 rounded-full border-[0.5px]"
+                  style={{ borderColor: "#FAB674" }}
+                ></div>
               </div>
             </div>
             <div className="col-span-12 sm:col-span-8 lg:col-span-4">
@@ -690,6 +718,7 @@ const ProductDetail = () => {
                 />
               </div>
             </div>
+           
             <div className="col-span-12 sm:col-span-8 lg:col-span-4">
               <div className={`${styles.image_hover} aspect-[2/1]`}>
                 <Image
@@ -699,7 +728,17 @@ const ProductDetail = () => {
                 />
               </div>
             </div>
-            <div className=" col-span-6 sm:col-span-4 lg:col-span-2 ">
+
+            <div className="sm:hidden col-span-6 sm:col-span-4 lg:col-span-2">
+              <div className={`${styles.image_hover} aspect-square`}>
+                <Image
+                  alt=""
+                  className="w-full h-full object-cover"
+                  src={cc9}
+                />
+              </div>
+            </div>
+            <div className="hidden sm:block col-span-6 sm:col-span-4 lg:col-span-2 ">
               <div
                 className={`${styles.bg_custom_yellow} h-full relative z-0 overflow-hidden`}
               >
