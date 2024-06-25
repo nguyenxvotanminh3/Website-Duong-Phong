@@ -215,6 +215,19 @@ const ProductDetail = () => {
                 ></div>
               </div>
             </div>
+            <div className="col-span-5  sm:hidden ">
+              <div
+                className={`${styles.bg_custom_yellow} h-full relative z-0 overflow-hidden`}
+              >
+                <p className="text-white uppercase w-full  ml-auto p-3 text-right text-base xl:text-[21.42px]">
+                  <Translations text="Sổ tay - tập vở" />
+                </p>
+                <div
+                  className="absolute bottom-10 right-10 h-[80%] w-[80%] -z-10 rounded-full border-[0.5px]"
+                  style={{ borderColor: "#FAB674" }}
+                ></div>
+              </div>
+            </div>
             <div className="col-span-5 sm:col-span-4 md:col-span-3 lg:col-span-2  ">
               <div className={`${styles.image_hover} aspect-square`}>
                 <Image
@@ -224,7 +237,7 @@ const ProductDetail = () => {
                 />
               </div>
             </div>
-            <div className="col-span-5  sm:col-span-4 md:col-span-3 lg:col-span-2 ">
+            <div className="col-span-5 hidden sm:block sm:col-span-4 md:col-span-3 lg:col-span-2 ">
               <div
                 className={`${styles.bg_custom_yellow} h-full relative z-0 overflow-hidden`}
               >
@@ -376,6 +389,19 @@ const ProductDetail = () => {
                 ></div>
               </div>
             </div>
+            <div className="col-span-5 sm:hidden">
+              <div
+                className={`${styles.bg_custom_yellow} h-full relative overflow-hidden`}
+              >
+                <p className="text-white uppercase  p-3 text-base xl:text-[21.42px]">
+                  <Translations text="TÚI GIẤY" />
+                </p>
+                <div
+                  className="absolute -bottom-10 -right-10 h-[80%] w-[80%] z-10 rounded-full"
+                  style={{ background: "#FAB674" }}
+                ></div>
+              </div>
+            </div>
             <div className="col-span-5 sm:col-span-4 md:col-span-3 lg:col-span-2">
               <div className={`${styles.image_hover} aspect-square`}>
                 <Image
@@ -385,7 +411,7 @@ const ProductDetail = () => {
                 />
               </div>
             </div>
-            <div className="col-span-5 sm:col-span-4 md:col-span-3 lg:col-span-2">
+            <div className="col-span-5 hidden sm:block sm:col-span-4 md:col-span-3 lg:col-span-2">
               <div
                 className={`${styles.bg_custom_yellow} h-full relative overflow-hidden`}
               >
@@ -446,7 +472,7 @@ const ProductDetail = () => {
                 className={`${styles.bg_custom_yellow} h-full relative z-0 overflow-hidden`}
               >
                 <p className="text-white uppercase text-right ml-auto  p-2 text-base xl:text-[21.42px] leading-7">
-                  <Translations text="BẢNG QUẢNG CÁO" /> <br className={`${lang === 'en' ? 'hidden': ''}`} />{" "}
+                  <Translations text="BẢNG QUẢNG CÁO" /> <br className={`${lang === 'en' ? 'hidden' : ''}`} />{" "}
                   <Translations text="TẤM LỚN" />
                 </p>
                 <div
@@ -527,6 +553,21 @@ const ProductDetail = () => {
                 ></div>
               </div>
             </div>
+
+            <div className="col-span-5  sm:hidden">
+              <div
+                className={`${styles.bg_custom_yellow} h-full relative overflow-hidden`}
+              >
+                <p className="text-white uppercase text-right ml-auto  p-3 text-base xl:text-[21.42px]">
+                  SHOP SIGN
+                </p>
+                <div
+                  className="absolute -bottom-10 -right-10 h-[80%] w-[80%] z-10 rounded-full"
+                  style={{ background: "#FAB674" }}
+                ></div>
+              </div>
+            </div>
+
             <div className="col-span-5 sm:col-span-4 md:col-span-3 lg:col-span-2">
               <div className={`${styles.image_hover} aspect-square`}>
                 <Image
@@ -537,7 +578,7 @@ const ProductDetail = () => {
               </div>
             </div>
 
-            <div className="col-span-5 sm:col-span-4 md:col-span-3 lg:col-span-2">
+            <div className="col-span-5 hidden sm:block sm:col-span-4 md:col-span-3 lg:col-span-2">
               <div
                 className={`${styles.bg_custom_yellow} h-full relative overflow-hidden`}
               >
@@ -686,7 +727,7 @@ const ProductDetail = () => {
                 ></div>
               </div>
             </div>
-           
+
             <div className="sm:hidden col-span-6 sm:col-span-4 lg:col-span-2 ">
               <div
                 className={`${styles.bg_custom_yellow} h-full relative z-0 overflow-hidden`}
@@ -718,7 +759,7 @@ const ProductDetail = () => {
                 />
               </div>
             </div>
-           
+
             <div className="col-span-12 sm:col-span-8 lg:col-span-4">
               <div className={`${styles.image_hover} aspect-[2/1]`}>
                 <Image
