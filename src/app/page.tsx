@@ -34,6 +34,8 @@ import banner9 from "@assets/images/bannerx9.jpg";
 import banner10 from "@assets/images/bannerx10.jpg";
 import banner11 from "@assets/images/banner11.jpg";
 import banner12 from "@assets/images/banner12.jpg";
+import c01 from "@assets/images/c01.png";
+import c02 from "@assets/images/c02.png";
 
 import Container from "@srccommons/Container";
 import "../../i18n";
@@ -49,7 +51,7 @@ export default function Home() {
 
       {/* BANNER */}
       <BannerComponentV2 />
- 
+
       <div className={`${styles.bg_intro} pb-[5rem] pt-10 -mt-2`}>
         <div className="w-full px-4 xl:px-0 xl:w-5/6 mx-auto 3xl:mx-auto max-w-screen-2xl lg:ms-auto xl:mr-0">
           <div className="hidden xl:flex items-center flex-wrap gap-6">
@@ -249,6 +251,17 @@ export default function Home() {
                 },
               ]}
             >
+
+              {lang === 'en' ? <Image
+                alt=""
+                src={c02}
+                className="aspect-[439/584]  sm:h-[300px] "
+              /> : <Image
+                alt=""
+                src={c01}
+                className="aspect-[439/584]  sm:h-[300px] "
+              />}
+
               <Image
                 alt=""
                 src={certificate1}
