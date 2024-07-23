@@ -1,8 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import React, { useEffect } from 'react'
-import icPhone from '@assets/images/phone.svg'
+import React, { useEffect } from 'react' 
 import location from '@assets/images/loaction.svg'
 import flagVN from '@assets/images/vietnam.png'
 import flagUK from '@assets/images/UK.png'
