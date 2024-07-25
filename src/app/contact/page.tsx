@@ -5,7 +5,7 @@ import Container from "@srccommons/Container";
 import Screen from "@srccommons/Screen";
 import { useRouter } from "next/navigation";
 import React from "react";
-import logoBlack from "@assets/images/logo-black.svg";
+import logoBlack from "@assets/images/logo.svg";
 import phone2 from "@assets/images/phone1.svg";
 import { IconEmail, IconFax, IconLocation, IconPhone } from "@srccommons/icons";
 import Image from "next/image";
@@ -98,7 +98,7 @@ const ContactUs = () => {
                           className="w-[12px] custom-icon-hidden"
                         />
                         <span className="text-[15px] font-medium">
-                          <Translations text="66/52 Phổ Quang, P.2," /> {' '}
+                          <Translations text="66/52 Phổ Quang, P.2," />{" "}
                           <Translations text="Q. Tân Bình, TP. Hồ Chí Minh" />
                         </span>
                       </div>
@@ -113,25 +113,34 @@ const ContactUs = () => {
                             className="w-[12px] custom-icon-hidden"
                           />
 
-                          <a href="tel:+842838441111"><span className="text-[15px]"> (+84) 28 3844 1111</span></a>
-
+                          <a href="tel:+842838441111">
+                            <span className="text-[15px]">
+                              {" "}
+                              (+84) 28 3844 1111
+                            </span>
+                          </a>
                         </div>
                         <div className="flex items-center custom-text-mode gap-2">
-                          <IconFax
-                            className="w-[15px] custom-icon-hidden"
-                          />
+                          <IconFax className="w-[15px] custom-icon-hidden" />
                           <a href="tel:+842839971009">
-                            <span className="custom-text-mode text-[15px]">(+84) 283 997 1009</span>
+                            <span className="custom-text-mode text-[15px]">
+                              (+84) 283 997 1009
+                            </span>
                           </a>
                         </div>
                       </div>
                       <div className="flex justify-between">
                         <div className="flex custom-text-mode gap-2">
                           <a href="tel:+84906331246">
-                            <span className="text-[15px]">Hotline: (+84) 906 331 246 <span className="mx-10">|</span> </span>
+                            <span className="text-[15px]">
+                              Hotline: (+84) 906 331 246{" "}
+                              <span className="mx-10">|</span>{" "}
+                            </span>
                           </a>
                           <a href="tel:+84909982246">
-                            <span className="text-[15px]">(+84) 909 982 246</span>
+                            <span className="text-[15px]">
+                              (+84) 909 982 246
+                            </span>
                           </a>
                         </div>
                       </div>
@@ -166,14 +175,19 @@ const ContactUs = () => {
                           (+84) 28 3844 1111
                         </span>
                       </a> */}
-                      <span>Hotline:</span><br/>
+                      <span>Hotline:</span>
+                      <br />
                       <a href="tel:+84906331246">
-                        <span className="text-[15px] font-bold"> (+84) 906 331 246  <span className="mx-2">|</span> </span>
-                      </a> 
-                      <a href="tel:+84909982246">
-                        <span className="text-[15px] font-bold">(+84) 909 982 246</span>
+                        <span className="text-[15px] font-bold">
+                          {" "}
+                          (+84) 906 331 246 <span className="mx-2">|</span>{" "}
+                        </span>
                       </a>
-
+                      <a href="tel:+84909982246">
+                        <span className="text-[15px] font-bold">
+                          (+84) 909 982 246
+                        </span>
+                      </a>
                     </div>
                   </div>
                 </div>
