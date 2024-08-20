@@ -6,7 +6,7 @@ import Image from "next/image";
 import React, { useEffect } from "react";
 import "../../../../i18n";
 import styles from "@assets/scss/home.module.scss";
-import service1 from "@assets/images/p1.png";
+import service1 from "@assets/images/1-08.jpg";
 import service2 from "@assets/images/p2.png";
 import service3 from "@assets/images/p3.png";
 import service4 from "@assets/images/p4.png";
@@ -49,7 +49,7 @@ import qc4 from "@assets/images/qc4.png";
 import qc5 from "@assets/images/qc5.png";
 import qc6 from "@assets/images/qc6.png";
 import qc7 from "@assets/images/qc7.png";
-import qc8 from "@assets/images/qc8.png";
+import qc8 from "@assets/images/1-10.jpg";
 import qc9 from "@assets/images/qc9.png";
 
 import { useParams } from "next/navigation";
@@ -573,7 +573,7 @@ const ProductDetail = () => {
                 <Image
                   className="w-full h-full object-cover"
                   alt=""
-                  src={qc8}
+                  src={qc9}
                 />
               </div>
             </div>
@@ -596,7 +596,7 @@ const ProductDetail = () => {
                 <Image
                   className="w-full h-full object-cover"
                   alt=""
-                  src={qc9}
+                  src={qc8}
                 />
               </div>
             </div>

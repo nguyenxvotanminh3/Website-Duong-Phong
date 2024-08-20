@@ -10,9 +10,14 @@ import icon302en from "@assets/images/30-02-yellow-en.svg";
 
 import "@assets/scss/home.scss";
 import BannerSingle from "@srccommons/BannerSingle";
-import service1 from "@assets/images/about1.jpg";
-import service2 from "@assets/images/about2.jpg";
-import service3 from "@assets/images/about3.png";
+import service1 from "@assets/images/1-01.jpg";
+import service2 from "@assets/images/1-02.jpg";
+import service3 from "@assets/images/1-03.jpg";
+import service4 from "@assets/images/1-04.jpg";
+import service5 from "@assets/images/1-05.jpg";
+import service6 from "@assets/images/1-06.jpg";
+import service7 from "@assets/images/1-07.jpg";
+
 import myTeam from "@assets/images/about4.png";
 import FooterComponent from "@srccomponents/home/FooterComponent";
 import Screen from "@srccommons/Screen";
@@ -104,8 +109,8 @@ const AboutUs = () => {
       </section>
       <section>
         <Container>
-          <div className="grid grid-cols-3 gap-3 py-20">
-            <div className="col-span-3 md:col-span-1  ">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-3 py-20">
+            <div className="md:col-span-1 flex flex-col gap-3 ">
               <div className={`${styles.image_hover} aspect-[6/5]`}>
                 <Image
                   alt=""
@@ -113,8 +118,15 @@ const AboutUs = () => {
                   src={service1}
                 />
               </div>
+              <div className={`${styles.image_hover} aspect-[6/5]`}>
+                <Image
+                  alt=""
+                  className="w-full h-full object-cover"
+                  src={service6}
+                />
+              </div>
             </div>
-            <div className="col-span-3 md:col-span-1  ">
+            <div className="md:col-span-1 flex flex-col gap-3 ">
               <div className={`${styles.image_hover} aspect-[6/5]`}>
                 <Image
                   alt=""
@@ -122,8 +134,15 @@ const AboutUs = () => {
                   src={service2}
                 />
               </div>
+              <div className={`${styles.image_hover} aspect-[6/5]`}>
+                <Image
+                  alt=""
+                  className="w-full h-full object-cover"
+                  src={service7}
+                />
+              </div>
             </div>
-            <div className="col-span-3 md:col-span-1  ">
+            <div className="md:col-span-2  flex flex-col gap-3">
               <div className={`${styles.image_hover} aspect-[6/5]`}>
                 <Image
                   alt=""
@@ -131,10 +150,34 @@ const AboutUs = () => {
                   src={service3}
                 />
               </div>
+              <div className={`${styles.image_hover} aspect-[6/5] md:hidden`}>
+                <Image
+                  alt=""
+                  className="w-full h-full object-cover"
+                  src={service5}
+                />
+              </div>
+            </div>
+            <div className="md:col-span-1  flex flex-col gap-3  ">
+              <div className={`${styles.image_hover} aspect-[6/5]`}>
+                <Image
+                  alt=""
+                  className="w-full h-full object-cover"
+                  src={service4}
+                />
+              </div>
+              <div className={`${styles.image_hover} hidden md:inline-block aspect-[6/5]`}>
+                <Image
+                  alt=""
+                  className="w-full h-full object-cover"
+                  src={service5}
+                />
+              </div>
             </div>
           </div>
         </Container>
       </section>
+    
       <section>
         <div className="bg-header1 py-6 ">
           <h1 className="text-[33px] text-shadown text-white md:text-[40px] text-center font-avo_bold uppercase">

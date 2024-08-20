@@ -28,7 +28,7 @@ const FooterComponent = () => {
                     className="w-[12px] custom-icon-hidden"
                   />
                   <span className="text=[15px] font-medium">
-                    <Translations text="66/52 Phổ Quang, P.2," />
+                    <Translations text="66/52 Phổ Quang, P.2," /> {" "}
                     <Translations text="Q. Tân Bình, TP. Hồ Chí Minh" />
                   </span>
                 </div>
@@ -39,7 +39,7 @@ const FooterComponent = () => {
                       className="w-[12px] custom-icon-hidden"
                     />
                     <a href="tel:+842838441111">
-                      <span className="text-[15px]"> (+84) 28 3844 1111</span>
+                      <span className="text-[15px]"> (+84) 283 8441 111</span>
                     </a>
                   </div>
 

@@ -245,8 +245,8 @@ const BannerComponentV2 = () => {
         nextArrow={<SampleNextArrow />}
         prevArrow={<SamplePrevArrow />}
       >
-        <BannerTemplate slide="slide1" />
-        <BannerTemplate slide="slide2" />
+        {/* <BannerTemplate slide="slide1" />
+        <BannerTemplate slide="slide2" /> */}
         <BannerTemplate slide="slide3" />
         <BannerTemplate slide="slide4" />
         <BannerTemplate slide="slide5" />

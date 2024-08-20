@@ -5,26 +5,34 @@ import Screen from "@srccommons/Screen";
 import Image from "next/image";
 import React, { useEffect } from "react";
 import styles from "@assets/scss/home.module.scss";
-import service1 from "@assets/images/sv1.png";
-import service2 from "@assets/images/sv2.png";
-import service3 from "@assets/images/sv3.png";
-import service4 from "@assets/images/p4.png";
-import service5 from "@assets/images/sv5.png";
-import service6 from "@assets/images/sv6.png";
+import service1 from "@assets/images/1-11.jpg";
+import service2 from "@assets/images/1-12.jpg";
+import service3 from "@assets/images/1-13.jpg";
+import service4 from "@assets/images/1-14.jpg";
+import service5 from "@assets/images/1-15.jpg";
+import service6 from "@assets/images/1-17.jpg";
+import service62 from "@assets/images/1-18.jpg";
+
 
 import service7 from "@assets/images/sv7.png";
 import service8 from "@assets/images/sv8.png";
 import service9 from "@assets/images/sv9.png";
 import service10 from "@assets/images/sv10.png";
-import service11 from "@assets/images/sv11.png";
-import service12 from "@assets/images/sv12.png";
+import service11 from "@assets/images/1-23.jpg";
+import service12 from "@assets/images/1-22.jpg";
+import service122 from "@assets/images/1-20.jpg";
+
 
 import service13 from "@assets/images/sv13.png";
+import service132 from "@assets/images/1-19.jpg";
+
 import service14 from "@assets/images/sv14.png";
 import service15 from "@assets/images/sv15.png";
 import service16 from "@assets/images/sp.jpg";
 import service17 from "@assets/images/sv17.png";
-import service18 from "@assets/images/sp.jpg";
+import service172 from "@assets/images/1-25.jpg";
+
+import service18 from "@assets/images/1-28.jpg";
 
 import { useParams } from "next/navigation";
 import FooterComponent from "@srccomponents/home/FooterComponent";
@@ -91,7 +99,7 @@ const ServiceDetail = () => {
                 <Image
                   alt=""
                   className="w-full h-full object-cover"
-                  src={service3}
+                  src={service5}
                 />
               </div>
             </div>
@@ -109,11 +117,20 @@ const ServiceDetail = () => {
                 <Image
                   alt=""
                   className="w-full h-full object-cover"
-                  src={service5}
+                  src={service4}
                 />
               </div>
             </div>
             <div className="col-span-6 sm:col-span-4 lg:col-span-2">
+              <div className={`${styles.image_hover} aspect-[5/4]`}>
+                <Image
+                  alt=""
+                  className="w-full h-full object-cover"
+                  src={service3}
+                />
+              </div>
+            </div>
+            <div className="hidden lg:block lg:col-span-2">
               <div className={`${styles.image_hover} aspect-[5/4]`}>
                 <Image
                   alt=""
@@ -127,16 +144,7 @@ const ServiceDetail = () => {
                 <Image
                   alt=""
                   className="w-full h-full object-cover"
-                  src={service1}
-                />
-              </div>
-            </div>
-            <div className="hidden lg:block lg:col-span-2">
-              <div className={`${styles.image_hover} aspect-[5/4]`}>
-                <Image
-                  alt=""
-                  className="w-full h-full object-cover"
-                  src={service3}
+                  src={service62}
                 />
               </div>
             </div>
@@ -215,7 +223,7 @@ const ServiceDetail = () => {
                 <Image
                   alt=""
                   className="w-full h-full object-cover"
-                  src={service5}
+                  src={service122}
                 />
               </div>
             </div>
@@ -259,7 +267,7 @@ const ServiceDetail = () => {
                 <Image
                   alt=""
                   className="w-full h-full object-cover"
-                  src={service14}
+                  src={service132}
                 />
               </div>
             </div>
@@ -286,7 +294,7 @@ const ServiceDetail = () => {
                 <Image
                   alt=""
                   className="w-full h-full object-cover"
-                  src={service17}
+                  src={service172}
                 />
               </div>
             </div>
@@ -295,7 +303,7 @@ const ServiceDetail = () => {
                 <Image
                   alt=""
                   className="w-full h-full object-cover"
-                  src={service18}
+                  src={service17}
                 />
               </div>
             </div>
@@ -313,7 +321,7 @@ const ServiceDetail = () => {
                 <Image
                   alt=""
                   className="w-full h-full object-cover"
-                  src={service15}
+                  src={service18}
                 />
               </div>
             </div>
