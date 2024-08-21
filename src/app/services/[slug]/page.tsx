@@ -9,13 +9,17 @@ import service1 from "@assets/images/1-11.jpg";
 import service2 from "@assets/images/1-12.jpg";
 import service3 from "@assets/images/1-13.jpg";
 import service4 from "@assets/images/1-14.jpg";
+import service42 from "@assets/images/1-16.jpg"; 
 import service5 from "@assets/images/1-15.jpg";
 import service6 from "@assets/images/1-17.jpg";
 import service62 from "@assets/images/1-18.jpg";
 
 
 import service7 from "@assets/images/sv7.png";
-import service8 from "@assets/images/sv8.png";
+import service71 from "@assets/images/1-24.jpg";
+import service72 from "@assets/images/1-222.jpg";
+
+import service8 from "@assets/images/1-27.jpg";
 import service9 from "@assets/images/sv9.png";
 import service10 from "@assets/images/sv10.png";
 import service11 from "@assets/images/1-23.jpg";
@@ -108,7 +112,7 @@ const ServiceDetail = () => {
                 <Image
                   alt=""
                   className="w-full h-full object-cover"
-                  src={service4}
+                  src={service42}
                 />
               </div>
             </div>
@@ -169,7 +173,7 @@ const ServiceDetail = () => {
                 <Image
                   alt=""
                   className="w-full h-full object-cover"
-                  src={service7}
+                  src={service71}
                 />
               </div>
             </div>
@@ -178,7 +182,7 @@ const ServiceDetail = () => {
                 <Image
                   alt=""
                   className="w-full h-full object-cover"
-                  src={service8}
+                  src={service72}
                 />
               </div>
             </div>
@@ -285,7 +289,7 @@ const ServiceDetail = () => {
                 <Image
                   alt=""
                   className="w-full h-full object-cover"
-                  src={service16}
+                  src={service8}
                 />
               </div>
             </div>
