@@ -3,13 +3,13 @@
 import Container from "@srccommons/Container";
 import Screen from "@srccommons/Screen";
 import Image from "next/image";
-import React, { useEffect } from "react";
+import React, { Suspense, useEffect } from "react";
 import styles from "@assets/scss/home.module.scss";
 import service1 from "@assets/images/1-11.jpg";
 import service2 from "@assets/images/1-12.jpg";
 import service3 from "@assets/images/1-13.jpg";
 import service4 from "@assets/images/1-14.jpg";
-import service42 from "@assets/images/1-16.jpg"; 
+import service42 from "@assets/images/1-16.jpg";
 import service5 from "@assets/images/1-15.jpg";
 import service6 from "@assets/images/1-17.jpg";
 import service62 from "@assets/images/1-18.jpg";
@@ -44,6 +44,7 @@ import BannerSingle from "@srccommons/BannerSingle";
 import Translations from "@srccommons/Translations";
 
 import "../../../../i18n";
+import Loading from "../../loading";
 const ServiceDetail = () => {
   const params = useParams<{ slug: string }>();
   useEffect(() => {
@@ -58,6 +59,7 @@ const ServiceDetail = () => {
   }, [params?.slug]);
 
   return (
+
     <Screen _className="product-page relative">
       <div id="banner"></div>
       <BannerSingle classImage={"bg-banner-service"} />
@@ -337,6 +339,7 @@ const ServiceDetail = () => {
         <FooterComponent />
       </div>
     </Screen>
+
   );
 };
 
