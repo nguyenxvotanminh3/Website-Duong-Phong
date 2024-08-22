@@ -43,8 +43,7 @@ import FooterComponent from "@srccomponents/home/FooterComponent";
 import BannerSingle from "@srccommons/BannerSingle";
 import Translations from "@srccommons/Translations";
 
-import "../../../../i18n";
-import Loading from "../../loading";
+import "../../../../i18n"; 
 const ServiceDetail = () => {
   const params = useParams<{ slug: string }>();
   useEffect(() => {
