@@ -240,7 +240,7 @@ const BannerComponentV2 = () => {
         slidesToScroll={1}
         autoplay={true}
         adaptiveHeight={false}
-        autoplaySpeed={3000}
+        // autoplaySpeed={3000}
         speed={1000}
         nextArrow={<SampleNextArrow />}
         prevArrow={<SamplePrevArrow />}

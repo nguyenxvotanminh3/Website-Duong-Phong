@@ -3,7 +3,7 @@
 import Container from "@srccommons/Container";
 import Screen from "@srccommons/Screen";
 import Image from "next/image";
-import React, { Suspense, useEffect } from "react";
+import React, {  useEffect } from "react";
 import styles from "@assets/scss/home.module.scss";
 import service1 from "@assets/images/1-11.jpg";
 import service2 from "@assets/images/1-12.jpg";
@@ -31,8 +31,7 @@ import service13 from "@assets/images/sv13.png";
 import service132 from "@assets/images/1-19.jpg";
 
 import service14 from "@assets/images/sv14.png";
-import service15 from "@assets/images/sv15.png";
-import service16 from "@assets/images/sp.jpg";
+import service15 from "@assets/images/sv15.png"; 
 import service17 from "@assets/images/sv17.png";
 import service172 from "@assets/images/1-25.jpg";
 
