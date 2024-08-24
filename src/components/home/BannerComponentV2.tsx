@@ -55,7 +55,7 @@ const BannerTemplate = ({ slide }: { slide: string }) => {
   const lang = i18n.language;
   return (
     <div className="relative w-full">
-      <div className={`${slide} h-[300px] md:h-[500px] lg:h-lvh rounded`}>
+      <div className={`${slide} h-[300px] md:h-[500px] lg:h-lvh 3xl:h-[75vh] rounded`}>
         {/* <Image alt="" src={banner} className='w-full h-full' /> */}
       </div>
       <div className="absolute bottom-0 w-full pb-10">
