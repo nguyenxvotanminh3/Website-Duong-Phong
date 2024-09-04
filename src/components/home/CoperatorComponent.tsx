@@ -28,10 +28,9 @@ const CoperatorComponent = () => {
       style={{ borderTopColor: "#FF9D00", borderBottomColor: "#FF9D00" }}
     >
       <Container>
-        <h1 className="text-white text-shadown font-semibold text-center tracking-[5px] text-2xl md:text-3xl lg:text-[30.48px] pb-[50px] sm:px-3 md:px-0 uppercase">
-          {" "}
+        <h1 className="text-center text-shadown font-semibold text-xl  sm:text-2xl md:text-3xl lg:text-[30.48px] pb-[50px] text-white uppercase">
           <Translations text="Đối tác của chúng tôi" />
-        </h1>
+        </h1> 
         <div className="grid grid-cols-4 sm:grid-cols-6 gap-x-[2rem] gap-y-[1rem] items-center md:px-[5rem]  flex-wrap justify-center">
           <div className="col-span-1">
             <Image

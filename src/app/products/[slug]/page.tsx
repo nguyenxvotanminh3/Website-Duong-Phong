@@ -90,7 +90,7 @@ const ProductDetail = () => {
       <div className="mt-[6rem]">
         <div className="bg-banner py-8">
           <Container>
-            <h3 className="text-shadown text-center uppercase text-white text-[30px] md:text-[35px] text-shadown">
+            <h3 className="text-shadown text-center uppercase text-white text-[19px] sm:[text-25px] md:text-[35px] text-shadown">
               <Translations text="Ấn Phẩm" />
             </h3>
           </Container>
@@ -267,7 +267,7 @@ const ProductDetail = () => {
       <div className="mt-[6rem]">
         <div className="bg-banner py-8">
           <Container>
-            <h3 className="text-shadown text-center uppercase text-white  text-[30px] md:text-[35px]">
+            <h3 className="text-shadown text-center uppercase text-white  text-[19px] sm:[text-25px] md:text-[35px]">
               <Translations text="Bao bì - hộp giấy" />{" "}
             </h3>
           </Container>
@@ -441,7 +441,7 @@ const ProductDetail = () => {
       <div className="mt-[6rem]">
         <div className="bg-banner py-8">
           <Container>
-            <h3 className="text-shadown text-center uppercase text-white  text-[30px] md:text-[35px]">
+            <h3 className="text-shadown text-center uppercase text-white  text-[19px] sm:[text-25px] md:text-[35px]">
               <Translations text="Quảng cáo ngoài trời" />
             </h3>
           </Container>
@@ -608,7 +608,7 @@ const ProductDetail = () => {
       <div className="mt-[6rem] mb-10">
         <div className="bg-banner py-8">
           <Container>
-            <h3 className="text-shadown text-center uppercase text-white text-[30px] md:text-[35px]">
+            <h3 className="text-shadown text-center uppercase text-white text-[19px] sm:[text-25px] md:text-[35px]">
               <Translations text="Thiết bị quảng cáo" />
             </h3>
           </Container>

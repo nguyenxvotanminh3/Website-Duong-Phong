@@ -48,7 +48,7 @@ const HeaderComponent = () => {
                             className="w-[15px] custom-icon-hidden"
                         />
                         <a href="tel:+84906331246">
-                            <span className="text-white ml-2 font-semibold text-[16.5px]">(+84) 906 982 246 | </span>
+                            <span className="text-white ml-2 font-semibold text-[16.5px]">(+84) 909 982 246 | </span>
                         </a>
                         <a href="tel:+84909982246">
                             <span className="text-white ml-2 font-semibold text-[16.5px]">(+84) 906 331 246</span>
@@ -83,7 +83,7 @@ const HeaderComponent = () => {
                             className="w-[10px] custom-icon-hidden"
                         />
                         <a href="tel:+842838441111">
-                            <span className="text-white ml-2 font-semibold text-[13px]">(+84) 906 982 246 </span>
+                            <span className="text-white ml-2 font-semibold text-[13px]">(+84) 909 982 246 </span>
                         </a>
                     </div>
                     <div className='items-center md:hidden flex'>
