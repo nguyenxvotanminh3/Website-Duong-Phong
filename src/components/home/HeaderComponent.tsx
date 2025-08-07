@@ -89,7 +89,7 @@ const HeaderComponent = () => {
                     <div className='items-center md:hidden flex'>
                         <Image className='w-[15px] h-[15px]' alt='' src={location} />
                         <span className="text-white ml-2 font-semibold text-[13px]  ">
-                            <Translations text='66/52 Phổ Quang, P.2, Q. Tân Bình, TP. Hồ Chí Minh' />
+                            <Translations text='66/52 Phổ Quang, P.2, Q. Tân Bình, TP. HCM' />
                         </span>
                     </div>
                 </div>

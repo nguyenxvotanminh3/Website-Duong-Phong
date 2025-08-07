@@ -28,8 +28,8 @@ const FooterComponent = () => {
                     className="w-[12px] custom-icon-hidden"
                   />
                   <span className="text=[15px] font-medium">
-                    <Translations text="66/52 Phổ Quang, P.2," /> {" "}
-                    <Translations text="Q. Tân Bình, TP. Hồ Chí Minh" />
+                    <Translations text="66/52 Phổ Quang, P.2, Q. Tân Bình, TP. Hồ Chí Minh" /> {" "}
+                    {/* <Translations text="Q. Tân Bình, TP. Hồ Chí Minh" /> */}
                   </span>
                 </div>
                 <div className="flex justify-between">
