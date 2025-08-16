@@ -175,7 +175,7 @@ const FooterComponent = () => {
                 <Translations text="XƯỞNG SẢN XUẤT KỸ THUẬT SỐ" />
               </h3>
               <span>
-                <Translations text="Số 5 Phạm Ngũ Lão, TP. Hồ Chí Minh" />
+                <Translations text="Số 5 Phạm Ngũ Lão, Quận Gò Vấp, Tp.HCM" />
               </span>
             </div>
             <div className="text=[15px]">
